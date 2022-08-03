@@ -1,14 +1,21 @@
 import Head from "next/head";
+import Header from "../components/Header";
+import Navbar from "../components/Navbar";
+import Results from "../components/Results";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Twitter Clone</title>
+        <title>TDMB</title>
       </Head>
-      <div>
-        <h1 className="text-red-700">This is the h1</h1>
-      </div>
+
+      {/* =========HEADER ======= */}
+      <Header />
+      {/* ===== NAVBAR ============= */}
+      <Navbar />
+      {/* ======= RESULTS =============== */}
+      <Results />
     </div>
   );
 }
