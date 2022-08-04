@@ -1,10 +1,11 @@
 import React from "react";
+import Card from "./Card";
 
 export default function Results({ results }) {
   return (
     <div>
       {results.map((result) => (
-        <h3 key={result.title}>{result.title}</h3>
+        <Card result={result} />
       ))}
     </div>
   );
