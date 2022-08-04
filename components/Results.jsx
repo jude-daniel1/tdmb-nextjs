@@ -3,7 +3,7 @@ import Card from "./Card";
 
 export default function Results({ results }) {
   return (
-    <div>
+    <div className="bg-gray-700 text-gray-200 select-none sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
       {results.map((result) => (
         <Card result={result} />
       ))}
