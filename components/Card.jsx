@@ -12,6 +12,7 @@ export default function Card({ result }) {
         layout="responsive"
         width={200}
         height={100}
+        alt={result.title}
       />
       <div className="p-2">
         <p className="truncate text-lg">{result.overview}</p>

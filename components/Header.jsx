@@ -22,6 +22,7 @@ export default function Header() {
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png"
           width={100}
           height={50}
+          alt="logo"
           className="cursor-pointer active:brightness-110"
         />
       </div>
